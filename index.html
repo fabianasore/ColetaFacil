@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Coleta Facil</title>
+</head>
+<body>
+    <!-- Scroll to Top Button -->
+    <div class="scroll-btn">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    
+    <!-- Header page -->
+    <header class="header">
+        <nav class="nav-bar">
+            <a href="#" class="logo">
+                
+            </a>
+            <div class="mobile-menu"><i class="fa-solid fa-bars side-menu" onclick="abrirMenu()"></i></div>
+            <ul class="nav-list" id="navList">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recursos" class="nav-link">Recursos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#ajuda" class="nav-link">Central de Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato" class="nav-link">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Home Page -->
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="media-icons">
+                <a href="https://github.com/flavws/ColetaFacilApp.git"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <div class="info">
+                <h2>Sejam Bem Vindos!</h2>
+                <h3>
+                    Semear ideias ecológicas e plantar sustentabilidade é ter<br> a garantia
+                    de colhermos um futuro fértil e consciente...
+                </h3>
+                <p>"A coleta seletiva é de extrema importância para o desenvolvimento sustentável e tornou-se uma ação importante na vida moderna devido ao aumento do consumo e consequentemente do lixo produzido. Tendo em vista que muitas pessoas não praticam o descarte adequado do lixo, decidimos desenvolver um projeto que auxiliasse na divulgação de pontos de coleta de lixo reciclável que estejam próximos ao usuário. Além disso, o Coleta Fácil também irá focar nos coletores de lixo, para que o usuário possa contribuir de uma forma mais cômoda. "</p>
+            </div>
+
+            <div class="splash-image">
+                <img src="img/splah.png" alt="">
+            </div>
+        </div>
+     </div>
+     <a href="#sobre" class="scroll-down">Scroll Down <i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <!-- Sobre page -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="title" data-title="Quem somos">Sobre nós</h3>
+            </div>
+
+            <div class="section-body grid">
+                <div class="first-column">
+                    <h3 class="subtitle">
+                        Coleta seletiva em áreas de vulnerabilidade socioeconômica.
+                    </h3>
+                    <p class="text">
+                        Neste projeto tecnológico de sustentabilidade, apresentamos um tema que se refere ao descarte de materiais e resíduos recicláveis de forma incorreta, um assunto não muito debatido, mas imprescindível, visto que é um problema que ocorre em diversas áreas da nossa cidade, com maior índice nas áreas periféricas. Alguns dos principais motivos são: a falta de coleta seletiva oferecida pela Prefeitura, a escassez na educação ambiental e a falta de informações sobre pontos de coleta.  
+                    </p>
+                </div>
+                <div class="second-column image">
+                    <img src="img/sobre.png" alt="" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos page -->
+    <section class="resources section" id="recursos">
+        <div class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+          
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/eco.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                  <span class="blog-slider__code">Menu do aplicativo</span>
+                  <div class="blog-slider__title">Primeira página do aplicativo, assim que inserir o login</div>
+                  <div class="blog-slider__text">No menu do aplicativo terão opções, para navegar pelo aplicativo. </div>
+                </div>
+              </div>
+              
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/ecoinfo.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <span class="blog-slider__code">EcoInfo</span>
+                  <div class="blog-slider__title">Área de notícias sobre o meio ambiente.</div>
+                  <div class="blog-slider__text">Esse campo do aplicativo serve, para conscientizar e espalhar informação.</div>
+                </div>
+              </div>
+              
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/coletores.png" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <span class="blog-slider__code">Coletores</span>
+                  <div class="blog-slider__title">Local onde o usuário pode solicitar o coletor.</div>
+                  <div class="blog-slider__text">Depois que o usuário decidir o que deseja descartar, poderá escolher um coletor, para entrar em contato e solicitar que ele colete o lixo. </div>
+                </div>
+              </div>
+              
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="img/resgate.png" alt="">
+                  </div>
+                  <div class="blog-slider__content">
+                      <span class="blog-slider__code">Resgate</span>
+                    <div class="blog-slider__title">Sistema de pontuação.</div>
+                    <div class="blog-slider__text">Futuramente iremos implementar um sistema de resgate de pontos, onde o usuário ou o coletor, poderá trocar os pontos por alimentos.</div>
+                  </div>
+                </div>
+                
+              
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="img/appBaixado.png" alt="">
+                    </div>
+                  <div class="blog-slider__content">
+                      <span class="blog-slider__code">Como instalar o APP</span>
+                    <div class="blog-slider__title">Aperte no botão de Download</div>
+                    <div class="blog-slider__text">Assim, que apertar no botão, será solicitado uma permissão, para ser instalado um aplicativo desconhecido. Assim, que habilitar a permissão, é só seguir com a instalação.</div>
+                    <a href="apk/app-debug.apk" class="blog-slider__button">Download</a>
+                  </div>
+                </div>
+            </div>
+            <div class="blog-slider__pagination"></div>
+          </div>
+    </section>
+        
+    <!-- Ajuda page -->
+    <section class="help section" id="ajuda">
+        <div class="section-header">
+            <h3 class="title" data-title="Central de Ajuda">Perguntas Frequentes</h3>
+        </div>
+        <div class="help-box" id="help-box">
+            <div class="card">
+                <div class="card-header" id="first-header">
+                        <div class="label">
+                            O que é Coleta Seletiva?
+                        </div>
+                </div>
+                <div class="collapse show" id="first-collapse">
+                    <div class="card-body">
+                        <p> A coleta seletiva é uma forma de aprimorar o descarte correto do lixo, 
+                            que também pode ser denominado de resíduo – descarte de possível reutilização – e rejeito – que não podem ser utilizados novamente. Ela é 
+                            realizada com base no recolhimento de lixo seco descartado por diversas entidades e separação do lixo reaproveitável e do lixo orgânico. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="first-header">
+                        <div class="label">
+                            Qual a importância da Coleta Seletiva?
+                        </div>
+                </div>
+                <div class="collapse show" id="first-collapse">
+                    <div class="card-body">
+                        <p>O descarte incorreto do lixo pode gerar consequências para todo o ambiente que nos cerca. Nas áreas urbanas, o lixo pode se acumular
+                             em locais inadequados podendo gerar enchentes, além de ser um ponto focal para proliferação de transmissores de doenças. O consumo 
+                             exponencial do ser humano apenas amplia essa problemática, já que a Terra não possui recursos suficientes para se adaptar a essa condição.
+                            Devido a esse tipo de situação é possível ver como a coleta seletiva é fundamental para manter um equilíbrio com a natureza. Portanto, 
+                            nosso papel é investigar e refletir sobre o assunto, para preservar o meio em que vivemos.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="second-header">
+                        <div class="label">
+                          Qual é o objetivo do aplicativo?
+                        </div>
+                </div>
+                <div class="collapse show" id="second-collapse">
+                    <div class="card-body">
+                        <p>Nosso objetivo é colaborar com a coleta seletiva em áreas de vulnerabilidade socioeconômica por meio de recursos como: 
+                            	a localização de empresas e pontos de coleta seletiva, na localidade de preferência do usuário,
+                                a criação de um site com informações do aplicativo para disponibilizar ajuda e responder questionamentos,
+                                e por fim um sistema de pontuação no aplicativo com o intuito de incentivar a conscientização, com doação de alimentos para os usuários e coletores, podendo trocar a pontuação por alimentos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="third-header">
+                        <div class="label">
+                            Qual foi o motivo que levou à criação do projeto?
+                        </div>
+                </div>
+                <div class="collapse show" id="third-collapse">
+                    <div class="card-body">
+                        <p>Apresentamos um tema que se refere ao descarte de materiais e resíduos recicláveis de forma incorreta, um assunto não muito debatido, mas imprescindível, visto que é um problema que ocorre em diversas áreas da nossa cidade, com maior índice nas áreas periféricas. Alguns dos principais motivos são: a falta de coleta seletiva oferecida pela Prefeitura, a escassez na educação ambiental e a falta de informações sobre pontos de coleta.  
+                            Tendo em vista que muitas pessoas não praticam o descarte adequado do lixo, decidimos desenvolver um projeto que auxiliasse na divulgação de pontos de coleta de lixo reciclável que estejam próximos ao usuário. Além disso, o Coleta Fácil também irá focar nos coletores de lixo, dispondo de suas informações (como contato e localidade) para que o usuário possa contribuir de uma forma mais cômoda. 
+                            </p>
+                    </div>
+                </div>
+            </div>
+            
+    </section>
+
+
+    <!-- Contatos page -->
+    <section class="contact section" id="contato">
+        <div class="contact-container">
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title-contact">
+                        Fale conosco!
+                    </h3>
+                    <p class="text-contact">
+                        Horário de atendimento:
+                        De Segunda a Sexta das 8h às 20h
+                        Aos sábados das 9h às 15h
+                    </p>
+                    <div class="info">
+                        <div class="information">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <p>Av. Feliciano Correia, s/n - Jardim Satelite, São Paulo</p>
+                        </div>
+                        <div class="information">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>coletafacil@gmail.com</p>
+                        </div>
+                        <div class="information">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+55 (11) 93326-1136</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="index.html">
+                        <h3 class="title-contact">
+                            Contact Us
+                        </h3>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input">
+                            <label for="">Name</label>
+                            <span>Name</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" name="email" class="input">
+                            <label for="">Email</label>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-container">
+                            <input type="tel" name="phone" class="input">
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                        </div>
+                        <div class="input-container textarea">
+                            <textarea name="message" class="input"></textarea>
+                            <label for="">Message</label>
+                            <span>Message</span>
+                        </div>
+                        <input type="submit" value="Send" class="contact-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer page -->
+    <footer id="footer">
+        <div class="footer-info">
+            <div class="footer-column footer-about">
+                <h2>About</h2>
+                <p>Apresentamos um tema que se refere ao descarte de materiais e resíduos recicláveis de forma incorreta, um assunto não muito debatido, mas imprescindível, visto que é um problema que ocorre em diversas áreas da nossa cidade, com maior índice nas áreas periféricas.</p>
+                <div class="footer-portfolio">
+                    <a href="https://flaviamariasilvas2.wixsite.com/my-site" target="_blank">Nosso portfolio</a>
+                </div>
+                <div class="footer_social-medias">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-column footer-links">
+                <h2>Links rapidos</h2>
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#recursos">Recursos</a>
+                    </li>
+                    <li>
+                        <a href="#ajuda">Ajuda</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column footer-contact">
+                <h2>Contato</h2>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p>Av. Feliciano Correia, s/n - Jardim Satelite, São Paulo</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>coletafacil@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+55 (11) 93326-1136</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>© Copyright 2022 ColetaFacil All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
